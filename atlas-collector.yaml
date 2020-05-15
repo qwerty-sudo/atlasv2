@@ -5,7 +5,7 @@ metadata:
   labels:
     app.name: atlas-collector
   name: atlas-collector
-  namespace: atlas
+  namespace: atlas-updated
 spec:
   replicas: 2
   template:
@@ -34,7 +34,7 @@ spec:
         - name: RABBIT_HOST
           value: atlas-rabbitmq.atlas.svc.cluster.local
         - name: RABBIT_PASS
-          value: "b85t9DXJ7s"
+          value: u6tcHqIfgn
         - name: RABBIT_PORT
           value: "5672"
         - name: RABBIT_PORT_SSL
