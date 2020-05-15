@@ -10,7 +10,7 @@ metadata:
 
   name: atlas-postprocessing-cj
 
-  namespace: atlas
+  namespace: atlas-updated
 
 
 spec:
