@@ -5,7 +5,7 @@ metadata:
   labels:
     io.kompose.service: atlas-api
   name: atlas-api
-  namespace: atlas
+  namespace: atlas-updated
 spec:
   type: LoadBalancer 
   ports:
