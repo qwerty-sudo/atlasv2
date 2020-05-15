@@ -5,7 +5,7 @@ metadata:
   labels:
     io.kompose.service: atlas-nginx
   name: atlas-nginx
-  namespace: atlas
+  namespace: atlas-updated
 spec:
   replicas: 1
   strategy: {}
