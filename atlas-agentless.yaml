@@ -10,7 +10,7 @@ metadata:
 
   name: atlas-agentless-cj
 
-  namespace: atlas
+  namespace: atlas-updated
 
 
 spec:
