@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: atlas-postprocess-env
-  namespace: atlas
+  namespace: atlas-updated
 data:
   COLLECTION_NAME: AtlasAgentsMsg
   MONGODB_HOST: atlas-mongodb
@@ -12,12 +12,12 @@ data:
   MONGO_DATABASE: atlas
   POSTGRES_PORT: "5432"
   POSTGRES_HOST: atlas-postgresql.atlas.svc.cluster.local
-  POSTGRES_PASSWORD: "elXOzwz0Bh"
+  POSTGRES_PASSWORD: oPAUHWnR8f
   POSTGRES_USER: postgres
   POSTGRES_DATABASE: atlas
   QUEUE_NAME: AtlasAgentMessageQueue
   RABBIT_HOST: atlas-rabbitmq.atlas.svc.cluster.local
-  RABBIT_PASS: "b85t9DXJ7s"
+  RABBIT_PASS: u6tcHqIfgn
   RABBIT_PORT: "5671"
   RABBIT_USER: user
   SOURCE_COLLECTION: AtlasAgentsMsg
