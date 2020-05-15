@@ -5,7 +5,7 @@ metadata:
   labels:
     io.kompose.service: atlas-mongobackuprestore
   name: atlas-mongobackuprestore
-  namespace: atlas
+  namespace: atlas-updated
 spec:
   replicas: 1
   strategy: {}
